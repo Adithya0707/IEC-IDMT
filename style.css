@@ -1,0 +1,601 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.PMS {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#In {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#IDMT {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.TMS {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#serialno {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.T {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  color: black;
+  box-sizing: border-box;
+  background-color: #1267b3;
+  background: linear-gradient(to left, #1267b3 50%, #ffff 100%);
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#submitbtn {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(238, 142, 39);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+#export {
+  width: 70px;
+  margin-left: 10px;
+  padding: 0px;
+  display: inline-block;
+  border: 5px solid rgb(201, 26, 232);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+#table1 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  opacity: 0.7;
+}
+
+#table1 td,
+#table1 th {
+  border: 1px solid white;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#tables {
+  width: auto;
+  text-align: center;
+  margin-top: 10px;
+  opacity: 1;
+}
+
+#table1 {
+  background-color: #000000;
+}
+
+#table1 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #000000;
+  /*background: linear-gradient(to right, #000000 70%, #ffff 100%);*/
+  color: rgb(255, 255, 255);
+}
+
+/*-------------------- */
+#table2 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 10px;
+  overflow-y: scroll;
+  opacity: 0.7;
+}
+
+#table2 td,
+#table2 th {
+  border: 1px solid white;
+  padding: 8px;
+  color: rgb(251, 251, 251);
+  font-weight: 700;
+}
+
+#table2 {
+  background-color: #000000;
+}
+
+#table2 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #000000;
+  /*background: linear-gradient(to right, #000000 70%, #ffff 100%);*/
+  color: rgb(255, 255, 255);
+}
+
+#readarray {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(91, 221, 58);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#removerow {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(250, 53, 19);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h1 {
+  padding-left: 18px;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+  color: #360202;
+}
+
+#navbar {
+  background-color: #6da9d2;
+  background: linear-gradient(to right, #010101 20%, #ffff 100%);
+}
+
+#graph {
+  float: center;
+}
+
+h3 {
+  color: white;
+  float: Left;
+}
+
+#IDMT_Auto_Generate {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#Interval {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#iterations {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#autogenerateheading {
+  margin-left: 15px;
+  color: azure;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+#tableappearsbelow {
+  margin-left: 10px;
+  color: azure;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+#AutoGraph {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(91, 221, 58);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+#AutoGraphAll {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(91, 221, 58);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+/* Second****************************************************/
+.PS {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.secur {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+.timerec {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.timerec {
+  width: 5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.triptimeActual {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+.P {
+  width: 80%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  color: black;
+  box-sizing: border-box;
+  background-color: #1267b3;
+  background: linear-gradient(to left, #1267b3 50%, #ffff 100%);
+  margin-left: 10px;
+
+  opacity: 0.9;
+}
+
+#table3 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+#table3 td,
+#table3 th {
+  border: 1px solid white;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#table3 {
+  background-color: #000000;
+}
+
+#table3 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #000000;
+  /*background: linear-gradient(to right, #000000 70%, #ffff 100%);*/
+  color: rgb(255, 255, 255);
+}
+
+#table4 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  opacity: 0.7;
+}
+
+#table4 td,
+#table4 th {
+  border: 1px solid white;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#table4 {
+  background-color: #000000;
+}
+
+#table4 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #000000;
+  /*background: linear-gradient(to right, #000000 70%, #ffff 100%);*/
+  color: rgb(255, 255, 255);
+}
+
+#actualTT {
+  width: 100%;
+  padding: 0px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(250, 53, 19);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+}
+
+#removelastentry {
+  width: 30px;
+  height: 30px;
+}
+
+#removelastactualTT {
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+#table5 {
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  opacity: 0.7;
+}
+
+#table5 td,
+#table5 th {
+  border: 1px solid white;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+#table5 {
+  background-color: #000000;
+}
+
+#table5 th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #000000;
+  /*background: linear-gradient(to right, #000000 70%, #ffff 100%);*/
+  color: rgb(255, 255, 255);
+}
+
+/************************************3rd page*/
+#IDMTTheory {
+  width: 100%;
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid rgb(91, 221, 58);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  padding: 0px;
+}
+
+#AcualvsIdeal {
+  width: 100%;
+  margin-left: 10px;
+  font-size: larger;
+  display: inline-block;
+  border: 5px solid rgb(152, 21, 217);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  font-weight: bold;
+  padding: 0px;
+}
+
+#userpage {
+  margin-top: 10%;
+}
+
+#userpageheading {
+  margin-top: 50px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#removeallTT {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+#reportgen {
+  width: 100%;
+  margin-left: 10px;
+  font-size: larger;
+  display: inline-block;
+  border: 5px solid rgb(233, 184, 36);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+  font-weight: bold;
+  padding: 0px;
+}
+
+#newTMS {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  opacity: 0.9;
+}
+
+#tested13 {
+  width: 100%;
+  margin-left: 0px;
+  display: inline-block;
+  border: 5px solid rgb(201, 26, 232);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+#EItested {
+  width: 100%;
+  margin-left: 0px;
+  display: inline-block;
+  border: 5px solid rgb(201, 26, 232);
+  border-radius: 4px;
+  box-sizing: border-box;
+  opacity: 0.9;
+}
+
+#testreport {
+  margin-top: 50px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ccc;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: #87ceeb;
+  }
+}
